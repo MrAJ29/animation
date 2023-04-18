@@ -1,0 +1,17 @@
+@keyframes move {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(80%);
+    }
+}
+
+/* Apply the animation to an element */
+.element {
+    animation-name: move;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
